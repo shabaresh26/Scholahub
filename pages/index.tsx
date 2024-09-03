@@ -24,8 +24,8 @@ import { META_DESCRIPTION } from '@lib/constants';
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
-    title: 'Demo - Virtual Event Starter Kit',
-    description: META_DESCRIPTION
+    title: 'Welcome to ScholaHub',
+    description: Empowering students and insitutions with collaborative events and professional growth opprtunities
   };
   const ticketNumber = query.ticketNumber?.toString();
   const defaultUserData = {
